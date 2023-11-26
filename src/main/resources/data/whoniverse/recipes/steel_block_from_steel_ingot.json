@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "whoniverse:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "whoniverse:steel_block"
+  }
+  }

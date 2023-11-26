@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "whoniverse:raw_steel"
+  },
+  "result": "whoniverse:steel_ingot"
+}

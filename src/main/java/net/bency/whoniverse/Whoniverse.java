@@ -1,5 +1,8 @@
 package net.bency.whoniverse;
 
+import net.bency.whoniverse.block.ModBlocks;
+import net.bency.whoniverse.item.ModItemGroups;
+import net.bency.whoniverse.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class Whoniverse implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Initializing Whoniverse");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
