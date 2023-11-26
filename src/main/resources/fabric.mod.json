@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "whoniverse",
+	"version": "${version}",
+	"name": "Bency's Whoniverse",
+	"description": "A fully fledged Doctor Who mod with content from all corners of the whoniverse!",
+	"authors": [
+		"bency"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/whoniverse/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bency.whoniverse.Whoniverse"
+		],
+		"client": [
+			"net.bency.whoniverse.WhoniverseClient"
+		],
+		"fabric-datagen": [
+			"net.bency.whoniverse.WhoniverseDataGenerator"
+		]
+	},
+	"mixins": [
+		"whoniverse.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
